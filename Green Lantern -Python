@@ -1,0 +1,12 @@
+app.background = gradient('darkGreen', 'lightGreen')
+
+# Draw the four circles.
+### Fix Your Code Here ###
+Circle(200, 200, 150, fill='black')
+Circle(200, 200, 140, fill=gradient('lime','mediumSeaGreen'))
+Circle(200, 200, 80, fill='black')
+Circle(200, 200, 45, fill='lime')
+
+# Draw the two rectangles.
+Rect(110, 110, 180, 30)
+Rect(110, 260, 180, 30)
